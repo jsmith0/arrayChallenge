@@ -35,8 +35,11 @@ public class Main {
             grades[i] = grade;
             sum = sum + grades[i];
             i++;
-            double average = sum / grades.length;
-                System.out.println(average);
+            count++;
+
+            double average = sum / count;
+            System.out.println(average);
         }
+
     }
 }
